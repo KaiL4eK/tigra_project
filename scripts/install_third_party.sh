@@ -17,3 +17,7 @@ git -C $THIRD_PARTY_DIR clone https://github.com/lsd-maddrive/elp_stereo_camera
 
 git -C $THIRD_PARTY_DIR clone https://github.com/srv/viso2 -b melodic_develop
 git -C $THIRD_PARTY_DIR/viso2 apply ../patches/viso2.patch
+
+# ORBSLAM2
+
+git -C $THIRD_PARTY_DIR clone https://github.com/appliedAI-Initiative/orb_slam_2_ros
